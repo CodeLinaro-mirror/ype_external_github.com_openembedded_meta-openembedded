@@ -39,6 +39,7 @@ PACKAGECONFIG[openct] = "--enable-openct,--disable-openct,openct"
 PACKAGECONFIG[pcsc] = "--enable-pcsc,--disable-pcsc,pcsc-lite,pcsc-lite pcsc-lite-lib"
 PACKAGECONFIG[readline] = "--enable-readline,--disable-readline,readline"
 PACKAGECONFIG[notify] = "--enable-notify,--disable-notify,glib-2.0"
+PACKAGECONFIG[ctapi] = "--enable-ctapi,--disable-ctapi"
 
 FILES:${PN} += "\
     ${libdir}/opensc-pkcs11.so \
